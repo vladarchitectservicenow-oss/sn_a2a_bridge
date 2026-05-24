@@ -13,7 +13,7 @@ import requests
 
 DEFAULT_INSTANCE = "https://dev362840.service-now.com"
 DEFAULT_USER = "admin"
-DEFAULT_PASS = os.environ.get("SN_PASSWORD", "7%%gXJzImsW7")
+DEFAULT_PASS = os.environ.get("SN_PASSWORD", "")
 
 A2A_REQUIRED_FIELDS = {"protocol_version", "agent_manifest", "capabilities", "endpoint_url"}
 
